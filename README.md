@@ -107,8 +107,8 @@ You can run the supporting material in two easy steps:
 The infrastructure can be created with the command below :
 
 ```
-./create.sh [stackName1] network.yml network-parameters.json
-./create.sh [stackName2] servers.yml servers-parameters.json
+./create.sh [stackName1] infrastructure/network.yml infrastructure/parameters/network-parameters.json
+./create.sh [stackName2] infrastructure/servers.yml infrastructure/parameters/servers-parameters.json
 ```
 
 <br>
