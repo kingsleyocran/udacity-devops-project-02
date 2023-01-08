@@ -11,8 +11,10 @@ There is two parts to this project:
 
 - Script (Template and Parameters): The second part is to interpret the instructions and create a matching CloudFormation script.
 
-Starter Code
+##### Starter Code
 A starter code was for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1). 
+
+<br>
 
 ## Getting Started 
 #### Scenario
@@ -66,7 +68,7 @@ One of the output exports of the CloudFormation script should be the public URL 
 
 
 
-
+<br>
 
 ## Dependencies
 ##### 1. AWS account
@@ -87,6 +89,19 @@ You can run the supporting material in two easy steps:
 # Check the region in the update.sh file
 ./update.sh mySecStack servers.yml server-parameters.json
 ```
+
+<br>
+
+
+## How to run it
+The infrastructure can be created with the command below :
+
+```
+./create.sh [stackName1] network.yml network-parameters.json
+./create.sh [stackName2] servers.yml servers-parameters.json
+```
+
+<br>
 
 ## Contact
 Kingsley Ocran - [https://github.com/kingsleyocran/](https://github.com/kingsleyocran/)
