@@ -9,6 +9,16 @@ There is two parts to this project:
 
 - Diagram: You'll first develop a diagram that you can present as part of your portfolio and as a visual aid to understand the CloudFormation script.
 
+*Below is the diagram that shows the infrastructure this project builds*
+<div style= "background: black;">
+<p align="center">
+  <img src="/diagram/Udacity_project_2.png"
+       alt="Udacity_project_2"
+  >
+</p>
+</div>
+
+
 - Script (Template and Parameters): The second part is to interpret the instructions and create a matching CloudFormation script.
 
 ##### Starter Code
